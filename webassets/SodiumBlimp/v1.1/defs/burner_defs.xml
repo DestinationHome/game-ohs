@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<burner_defs>
+    <burner_1>
+        <pos type="vec">0,0,0,0</pos>
+        <model>burner_001.mdl</model>
+    </burner_1>
+</burner_defs>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map_defs>
+    <cloud_gfx>
+        <_>cloud_2</_>
+        <_>cloud_3</_>
+    </cloud_gfx>
+    <horizon_inner>inner_ring.mdl</horizon_inner>
+    <horizon_centre>centre_ring.mdl</horizon_centre>
+    <horizon_outer>outer_ring.mdl</horizon_outer>
+    <master_seed type="num">12345</master_seed>
+    <max_cloud_height type="num">1000</max_cloud_height>
+    <min_cloud_height type="num">500</min_cloud_height>
+    <sky_model>sky_001.mdl</sky_model>
+    <terrain_collision>terrain_001.hkx</terrain_collision>
+    <terrain_model>terrain_002.mdl</terrain_model>
+    <terrain_radius type="num">10000</terrain_radius>
+    <terrain_tile_size type="num">2000</terrain_tile_size>
+</map_defs>

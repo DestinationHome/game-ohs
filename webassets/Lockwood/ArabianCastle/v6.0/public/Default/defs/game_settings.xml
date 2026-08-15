@@ -1,0 +1,227 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<GAME_SETTINGS>
+    <CARPET_GAME_SETTINGS>
+        <BOUNDARY_RADIUS type='num'>300</BOUNDARY_RADIUS>
+        <FLOOR_LEVEL type='num'>-500</FLOOR_LEVEL>
+        <CEILING_LEVEL type='num'>500</CEILING_LEVEL>
+    </CARPET_GAME_SETTINGS>
+
+    <CLOTHING_GUIDS>
+
+    </CLOTHING_GUIDS>
+
+    <INV_CHECKLIST>
+
+    </INV_CHECKLIST>
+
+    <COMMUNITY_REWARDS>
+        <CommunityRewards>
+            <REWARD>
+                <Score type='num'>5</Score>
+                <GUIDS>
+                    <_>49B1CA77-88E1421E-93A4803E-342FF3D3</_>
+                </GUIDS>
+            </REWARD>
+        </CommunityRewards>
+    </COMMUNITY_REWARDS>
+
+    <GEM_DEFS>
+        <redGem>
+            <icon>gem_red.dds</icon>
+            <colour type='vec'>1,1,1,1</colour>
+            <type>NORMAL</type>
+            <min_spawn_time type='num'>2</min_spawn_time>
+            <max_spawn_time type='num'>10</max_spawn_time>
+        </redGem>
+        <blueGem>
+            <icon>gem_blue.dds</icon>
+            <colour type='vec'>1,1,1,1</colour>
+            <type>NORMAL</type>
+            <min_spawn_time type='num'>2</min_spawn_time>
+            <max_spawn_time type='num'>10</max_spawn_time>
+        </blueGem>
+        <!-- <greenGem>
+            <icon>gem_green.dds</icon>
+            <colour type='vec'>1,1,1,1</colour>
+            <type>NORMAL</type>
+            <min_spawn_time type='num'>2</min_spawn_time>
+            <max_spawn_time type='num'>10</max_spawn_time>
+        </greenGem> -->
+        <yellowGem>
+            <icon>gem_green.dds</icon>
+            <colour type='vec'>1,1,1,1</colour>
+            <type>NORMAL</type>
+            <min_spawn_time type='num'>2</min_spawn_time>
+            <max_spawn_time type='num'>10</max_spawn_time>
+        </yellowGem>
+    </GEM_DEFS>
+
+    <TASK_SETTINGS>
+        <TASK_WEIGHTINGS_GUEST></TASK_WEIGHTINGS_GUEST>
+        <TASK_WEIGHTINGS></TASK_WEIGHTINGS>
+        <TASK_DEFS></TASK_DEFS>
+    </TASK_SETTINGS>
+
+    <TARGETS>
+        <CarpetLaunch_Main_001>
+            <controls>CarpetLaunch</controls>
+            <dressing>CarpetDressing</dressing>
+            <name>MagicCarpet</name>
+            <obj>MagicCarpet_Main</obj>
+            <pos type='vec'>-5,1,142,0</pos>
+            <rot type='vec'>0,180,0,0</rot>
+            <distSq type='num'>5</distSq>
+        </CarpetLaunch_Main_001>
+        <CarpetLaunch_Main_002>
+            <controls>CarpetLaunch</controls>
+            <dressing>CarpetDressing</dressing>
+            <name>MagicCarpet</name>
+            <obj>MagicCarpet_Main</obj>
+            <pos type='vec'>-73,-2,-40,0</pos>
+            <rot type='vec'>0,90,0,0</rot>
+            <distSq type='num'>5</distSq>
+        </CarpetLaunch_Main_002>
+        <CarpetLaunch_Main_003>
+            <controls>CarpetLaunch</controls>
+            <dressing>CarpetDressing</dressing>
+            <name>MagicCarpet</name>
+            <obj>MagicCarpet_Main</obj>
+            <pos type='vec'>20,8,-52,0</pos>
+            <rot type='vec'>0,0,0,0</rot>
+            <distSq type='num'>5</distSq>
+        </CarpetLaunch_Main_003>
+        <!-- <CarpetLaunch_002>
+            <controls>CarpetLaunch</controls>
+            <dressing>CarpetDressing</dressing>
+            <name>MagicCarpet</name>
+            <obj>MagicCarpet_Main</obj>
+            <pos type='vec'>1,0,0,0</pos>
+            <rot type='vec'>0,0,0,0</rot>
+            <distSq type='num'>2</distSq>
+        </CarpetLaunch_002> -->
+        <GenieMain>
+            <name>Genie</name>
+            <obj>Genie_Main</obj>
+            <controls>Genie</controls>
+            <pos type='vec'>0,0,0,0</pos>
+            <rot type='vec'>0,0,0,0</rot>
+            <distSq type='num'>3</distSq>
+        </GenieMain>
+        <CrystalBall>
+            <name>CrystalBall</name>
+            <obj>CrystalBall</obj>
+            <!-- <controls>Genie</controls> -->
+            <pos type='vec'>-5.5,1,176,0</pos>
+            <rot type='vec'>0,0,0,0</rot>
+            <distSq type='num'>3</distSq>
+        </CrystalBall>
+        <!-- <StashChest>
+            <name>StashChest</name>
+            <obj>StashChest</obj>
+			<controls>StashChest</controls>
+            <dressing>StashChest_Dressing</dressing>
+            <pos type='vec'>2,0,2,0</pos>
+            <rot type='vec'>0,0,0,0</rot>
+            <distSq type='num'>3</distSq>
+        </StashChest> -->
+    </TARGETS>
+
+    <CONTROLS>
+        <CarpetLaunch>
+            <Accept>
+                <action>PRESSED</action>
+                <btnId>PAD_CROSS</btnId>
+            </Accept>
+            <Decline>
+                <action>PRESSED</action>
+                <btnId>PAD_CIRCLE</btnId>
+            </Decline>
+
+            <Left>
+                <action>PRESSED</action>
+                <btnId>PAD_DPAD_LEFT</btnId>
+            </Left>
+            <Right>
+                <action>PRESSED</action>
+                <btnId>PAD_DPAD_RIGHT</btnId>
+            </Right>
+
+            <L_Analog_H>
+                <action>ANALOG</action>
+                <btnId>PAD_JOY_LEFT_X</btnId>
+            </L_Analog_H>
+            <L_Analog_V>
+                <action>ANALOG</action>
+                <btnId>PAD_JOY_LEFT_Y</btnId>
+            </L_Analog_V>
+
+            <R_Analog_H>
+                <action>ANALOG</action>
+                <btnId>PAD_JOY_RIGHT_X</btnId>
+            </R_Analog_H>
+            <R_Analog_V>
+                <action>ANALOG</action>
+                <btnId>PAD_JOY_RIGHT_Y</btnId>
+            </R_Analog_V>
+
+            <R2_Analog>
+                <action>ANALOG</action>
+                <btnId>PAD_R2_SHOULDER</btnId>
+            </R2_Analog>
+            <L2_Analog>
+                <action>ANALOG</action>
+                <btnId>PAD_L2_SHOULDER</btnId>
+            </L2_Analog>
+        </CarpetLaunch>
+        <Genie>
+            <Accept>
+                <action>PRESSED</action>
+                <btnId>PAD_CROSS</btnId>
+            </Accept>
+            <Decline>
+                <action>PRESSED</action>
+                <btnId>PAD_CIRCLE</btnId>
+            </Decline>
+        </Genie>
+        <StashChest>
+            <Accept>
+                <action>PRESSED</action>
+                <btnId>PAD_CIRCLE</btnId>
+            </Accept>
+            <Decline>
+                <action>PRESSED</action>
+                <btnId>PAD_CROSS</btnId>
+            </Decline>
+            <Up>
+                <action>PRESSED</action>
+                <btnId>PAD_DPAD_UP</btnId>
+            </Up>
+            <Down>
+                <action>PRESSED</action>
+                <btnId>PAD_DPAD_DOWN</btnId>
+            </Down>
+            <Left>
+                <action>PRESSED</action>
+                <btnId>PAD_DPAD_LEFT</btnId>
+            </Left>
+            <Right>
+                <action>PRESSED</action>
+                <btnId>PAD_DPAD_RIGHT</btnId>
+            </Right>
+        </StashChest>
+    </CONTROLS>
+
+    <DEPENDANCIES>
+        <_>MagicCarpet_Main.lua</_>
+        <_>Genie_Main.lua</_>
+        <_>CrystalBall.lua</_>
+        <!-- <_>StashChest.lua</_> -->
+        <_>CommunityChest.lua</_>
+        <!-- <_>SecretArea.lua</_> -->
+    </DEPENDANCIES>
+
+    <LAMP>
+        <pos type='vec'>0,0,0,0</pos>
+        <rot type='vec'>0,0,0,0</rot>
+    </LAMP>
+</GAME_SETTINGS>

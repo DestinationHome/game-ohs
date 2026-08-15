@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<craft_defs>
+    <SKIN_basic>
+        <skin_texture>jet_skin_19_d.dds</skin_texture>
+    </SKIN_basic>
+
+    <SKIN_basic_01>
+        <skin_texture>jet_skin_01_d.dds</skin_texture>
+    </SKIN_basic_01>
+    <SKIN_basic_02>
+        <skin_texture>jet_skin_02_d.dds</skin_texture>
+    </SKIN_basic_02>
+    <SKIN_basic_03>
+        <skin_texture>jet_skin_03_d.dds</skin_texture>
+    </SKIN_basic_03>
+    <SKIN_basic_04>
+        <skin_texture>jet_skin_04_d.dds</skin_texture>
+    </SKIN_basic_04>
+    <SKIN_basic_05>
+        <skin_texture>jet_skin_05_d.dds</skin_texture>
+    </SKIN_basic_05>
+    <SKIN_basic_06>
+        <skin_texture>jet_skin_06_d.dds</skin_texture>
+    </SKIN_basic_06>
+    <SKIN_basic_07>
+        <skin_texture>jet_skin_07_d.dds</skin_texture>
+    </SKIN_basic_07>
+    <SKIN_basic_08>
+        <skin_texture>jet_skin_08_d.dds</skin_texture>
+    </SKIN_basic_08>
+    <SKIN_basic_09>
+        <skin_texture>jet_skin_09_d.dds</skin_texture>
+    </SKIN_basic_09>
+    <SKIN_basic_10>
+        <skin_texture>jet_skin_10_d.dds</skin_texture>
+    </SKIN_basic_10>
+    <SKIN_basic_11>
+        <skin_texture>jet_skin_11_d.dds</skin_texture>
+    </SKIN_basic_11>
+    <SKIN_basic_12>
+        <skin_texture>jet_skin_12_d.dds</skin_texture>
+    </SKIN_basic_12>
+    <SKIN_basic_13>
+        <skin_texture>jet_skin_13_d.dds</skin_texture>
+    </SKIN_basic_13>
+    <SKIN_basic_14>
+        <skin_texture>jet_skin_14_d.dds</skin_texture>
+    </SKIN_basic_14>
+    <SKIN_basic_15>
+        <skin_texture>jet_skin_15_d.dds</skin_texture>
+    </SKIN_basic_15>
+    <SKIN_basic_16>
+        <skin_texture>jet_skin_16_d.dds</skin_texture>
+    </SKIN_basic_16>
+</craft_defs>

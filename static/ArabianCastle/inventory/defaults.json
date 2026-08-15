@@ -1,0 +1,30 @@
+{
+    "genieSpawned": true,
+    "crystalBall": true,
+    "task_public": false,
+    "task": false,
+    "chosenLevel": "level_001.xml",
+    "currentTrailFX": "Default",
+
+    "wishes": 3,
+
+    "wishOptions": [],
+    "wishOptions_guest": [],
+    "wishOptions_public": [
+        {
+            "idx": 0,
+            "loc": 0,
+            "type": "INITIAL"
+        }
+    ],
+    
+    "wishesRemaining": [
+        {
+            "dateStamp": "20051215"
+        }
+    ],
+    "stashChest": {
+        "slotsUnlocked": 10,
+        "slots": []
+    }
+}

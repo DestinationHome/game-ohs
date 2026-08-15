@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sound_defs>
+    <AMBIENT>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+
+        <!-- Cull condition: v2:Length3() < falloffEnd (with Length3) probably being the sound's length -->
+        <!-- Setting this to true with the condition invalidated **will** crash the game -->
+        <allow_cull type="bool">false</allow_cull>
+    </AMBIENT>
+    <ARROW_DEPLOY>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </ARROW_DEPLOY>
+    <ARROW_SPIN>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </ARROW_SPIN>
+    <BINOC_ROTATE>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </BINOC_ROTATE>
+    <BINOC_ZOOM>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </BINOC_ZOOM>
+    <BLIMP_CANOPY>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </BLIMP_CANOPY>
+    <BLIMP_WIND>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </BLIMP_WIND>
+    <DIG>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </DIG>
+    <DIG_FAIL>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </DIG_FAIL>
+    <DIG_SUCCESS>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </DIG_SUCCESS>
+    <ENGINE>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </ENGINE>
+    <FANFARE>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </FANFARE>
+    <MENU_ACCEPT>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </MENU_ACCEPT>
+    <MOVING_WIND>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </MOVING_WIND>
+    <ODOMETER>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </ODOMETER>
+    <TELEPAD_HUM>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </TELEPAD_HUM>
+    <TELEPAD_POW>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </TELEPAD_POW>
+    <TELEPAD_S_POW>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </TELEPAD_S_POW>
+    <THUMPER_CHARGE>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </THUMPER_CHARGE>
+    <THUMPER_DEPLOY>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </THUMPER_DEPLOY>
+    <THUMPER_HOVER>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </THUMPER_HOVER>
+    <THUMPER_HUM>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </THUMPER_HUM>
+    <THUMPER_L_SERVO>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </THUMPER_L_SERVO>
+    <THUMPER_SPAWN>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </THUMPER_SPAWN>
+    <THUMPER_STOMP>
+        <volume type="num">1</volume>
+        <pitch type="num">0</pitch>
+        <falloff_start type="num">1</falloff_start>
+        <falloff_end type="num">10</falloff_end>
+        <pan type="num">0</pan>
+        <allow_cull type="bool">false</allow_cull>
+    </THUMPER_STOMP>
+</sound_defs>

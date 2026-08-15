@@ -1,0 +1,27 @@
+{
+    "oddment": [
+        [ 297, "health" ],
+        [ 290, "rocket" ],
+        [ 280, "launcher" ],
+        [ 290, "clip" ],
+        [ 285, "autogun" ],
+        [ 285, "grenade" ]
+    ],
+    "hardness": 75,
+    "challenge": {
+        "accuracy": 0.75,
+        "killall": 1.0
+    },
+    "wave_1": {
+        "unlocked": "20110104000000",
+        "override": false
+    },
+    "wave_2": {
+        "unlocked": "20110105000000",
+        "override": false
+    },
+    "wave_3": {
+        "unlocked": "20110106000000",
+        "override": false
+    }
+}

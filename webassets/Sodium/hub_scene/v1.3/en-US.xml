@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+    <!-- Localizations -->
+    <SodiumOne_Web>Welcome to Sodium One</SodiumOne_Web>
+    <Lockwood_Web>Built by Lockwood</Lockwood_Web>
+    <Hot_Spot_map_interface>Hot Spot Map Interface</Hot_Spot_map_interface>
+    <Making_your-stay_as_pleasant_as_probable>Making your stay as pleasant as probably</Making_your-stay_as_pleasant_as_probable>
+    <Twitter_is_downloading>Twitter is Downloading</Twitter_is_downloading>
+    <Interactive_map_is_downloading>Interactive map is loading</Interactive_map_is_downloading>
+    <Please_wait>Please Wait</Please_wait>
+    <VICKIE_is_downloading>Vickie is downloading</VICKIE_is_downloading>
+    <VICKIE_2A>Vickie is here to help</VICKIE_2A>
+    <VICKIE_2B>Vickie is here to help</VICKIE_2B>
+    <VICKIE_is_now_ready_to_serve_your_needs>Vickie is now ready to serve your needs</VICKIE_is_now_ready_to_serve_your_needs>
+    <VICKIE_1Alt>Vickie is here to help</VICKIE_1Alt>
+    <Scorpios_is_downloading>Scorpio's is downloading</Scorpios_is_downloading>
+    <Scorpion_stomp_is_downloading>Scorpion Stomp is downloading</Scorpion_stomp_is_downloading>
+    <WARNING>WARNING</WARNING>
+    <Scorpion_breeding_hotspot>Scorpion breeding hotspot</Scorpion_breeding_hotspot>
+    <Stomp_Boots2>Wear these boots!</Stomp_Boots2>
+    <Scorpios_2a>Scorpios_2a</Scorpios_2a>
+    <Stomp_Boots4>Stomp_Boots4</Stomp_Boots4>
+    <Stomp_Boots3>Stomp_Boots3</Stomp_Boots3>
+    <Robotic_scorpion_replication_zone>Robotic Scorpion Replication Zone</Robotic_scorpion_replication_zone>
+    <Bartender_Wristband1>Bartender_Wristband1</Bartender_Wristband1>
+    <Bartender_Wristband2>Bartender_Wristband2</Bartender_Wristband2>
+    <Scorpios_2Alt>Scorpios_2Alt</Scorpios_2Alt>
+    <Vetoxade2>Vetoxade Vending Machine</Vetoxade2>
+    <Vendy_1>Vendy_1</Vendy_1>
+    <Nothing_But_Sand_Ahead>Nothing But Sand Ahead</Nothing_But_Sand_Ahead>
+    <Nothing_To_See_Here>Nothing To See Here</Nothing_To_See_Here>
+    <Youll_Never_Find_It>Youll Never Find It</Youll_Never_Find_It>
+    <Authorised_Personnel_Only>Authorised Personnel Only</Authorised_Personnel_Only>
+    <Competition_Code>Competition Code</Competition_Code>
+    <Welcome_to_Scorpios>Welcome to Scorpios</Welcome_to_Scorpios>
+    <VIP_area>VIP's Only Area</VIP_area>
+    <Stage_area>Stage Area</Stage_area>
+    <Stage_2>Stage_2</Stage_2>
+    <Oi>Oi</Oi>
+    <SecretCode>Secret Code</SecretCode>
+    <Salt_Shooter_Tele1>To Salt Shooter Game</Salt_Shooter_Tele1>
+    <Teleporters_All>All teleports located in this area</Teleporters_All>
+    <Sodium_training_space>Sodium_training_space</Sodium_training_space>
+    <Sodium_commerce_point>Sodium Commerce Point</Sodium_commerce_point>
+    <Commerce_PointAlt>These are not working</Commerce_PointAlt>
+    <Commerce_Point2>Sodium Commerce Point</Commerce_Point2>
+    <Commerce_Point2Alt>These are not working</Commerce_Point2Alt>
+    <ACCESS_DENIED>ACCESS DENIED</ACCESS_DENIED>
+    <ACCESS_GRANTED>ACCESS GRANTED</ACCESS_GRANTED>
+    <Sodium_Pilots_only>Sodium Pilots only</Sodium_Pilots_only>
+    <Training_game_is_this_way>Training game is this way</Training_game_is_this_way>
+
+    <!-- GUID monitors -->
+    <guid_Stomp_Boots_Male>B2D008DE-B3AE4C6F-B849871F-C1D6CB6B</guid_Stomp_Boots_Male>
+    <guid_Stomp_Boots_Female>6A9A6863-24C84822-9218295F-D64DBC25</guid_Stomp_Boots_Female>
+    <guid_Pilot_Jacket_Male>59507C1F-F9D34DD6-A075729D-CFC79E3C</guid_Pilot_Jacket_Male>
+    <guid_Pilot_Jacket_Female>1FE13BFB-BEE1433E-887A19CF-CD57E45B</guid_Pilot_Jacket_Female>
+</scene>

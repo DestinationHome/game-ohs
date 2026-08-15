@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx_defs>
+    <cloud_2>
+        <efx>cloud_002.efx</efx>
+        <count type="num">1</count>
+        <attach_type>render</attach_type>
+    </cloud_2>
+    <cloud_3>
+        <efx>cloud_003.efx</efx>
+        <count type="num">1</count>
+        <attach_type>render</attach_type>
+    </cloud_3>
+
+    <DIG>
+        <efx>dig.efx</efx>
+        <count type="num">1</count>
+        <attach_type>render</attach_type>
+    </DIG>
+    <BUY_BAG>
+        <efx>glowser.efx</efx>
+        <count type="num">1</count>
+        <attach_type>render</attach_type>
+    </BUY_BAG>
+    <DUST_001>
+        <efx>dust_cloud.efx</efx>
+        <count type="num">1</count>
+        <attach_type>render</attach_type>
+    </DUST_001>
+    <TELEPAD>
+        <efx>telepad_send.efx</efx>
+        <count type="num">1</count>
+        <attach_type>render</attach_type>
+    </TELEPAD>
+    <THUMPER_CHARGE>
+        <efx>thumperCharge.efx</efx>
+        <count type="num">1</count>
+        <attach_type>render</attach_type>
+    </THUMPER_CHARGE>
+    <THUMPER_THUD>
+        <efx>thumperThud.efx</efx>
+        <count type="num">1</count>
+        <attach_type>render</attach_type>
+    </THUMPER_THUD>
+    <THUMPER_HOVER>
+        <efx>hoverBlast.efx</efx>
+        <count type="num">1</count>
+        <attach_type>render</attach_type>
+    </THUMPER_HOVER>
+</gfx_defs>

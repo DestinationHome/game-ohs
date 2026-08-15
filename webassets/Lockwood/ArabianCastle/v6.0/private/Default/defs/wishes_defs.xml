@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<WISHES>
+    <WISH_DEFS>
+
+        <COLLECT_MIXED>
+            <_>
+                <loc>WISH_REWARD_MIXED_1</loc>
+                <event>reward</event>
+                <value>B29E2F7D-6F0B4ED3-A86989DD-321D7469</value>
+            </_>
+            <_>
+                <loc>WISH_TRAIL_MIXED_1</loc>
+                <event>trailfx</event>
+                <value>SparkleTrail</value>
+            </_>
+        </COLLECT_MIXED>
+
+        <COLLECT_RED>
+            <_>
+                <loc>WISH_TRAIL_RED_1</loc>
+                <event>trailfx</event>
+                <value>FireTrail</value>
+            </_>
+            <_>
+                <loc>WISH_REWARD_RED_1</loc>
+                <event>reward</event>
+                <value>B29E2F7D-6F0B4ED3-A86989DD-321D7469</value>
+            </_>
+        </COLLECT_RED>
+
+        <COMMON>
+            <_>
+                <loc>WISH_COMMON_1</loc>
+                <event>reward</event>
+                <value>B29E2F7D-6F0B4ED3-A86989DD-321D7469</value>
+            </_>
+            <_>
+                <loc>WISH_COMMON_2</loc>
+                <event>trailfx</event>
+                <value>SparkleTrail</value>
+            </_>
+        </COMMON>
+
+    </WISH_DEFS>
+</WISHES>

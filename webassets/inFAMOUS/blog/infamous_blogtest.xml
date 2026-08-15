@@ -1,0 +1,214 @@
+<en-GB1>
+	
+	<title content="The Art of Destruction: Burning Down a City" />
+	
+	<screen1 content="Screen 1" url="/blog1/Screen1.xml" caption="Screen 1" />
+	<screen2 content="Screen 2" url="/blog1/Screen2.xml" caption="Screen 2" />
+	
+	<text content="We're Gold! Those are the best two words you can hear while working on a game aside from the office stampede inducing &quot;foods
+	here&quot;...but getting to that point took a tremendous amount of time and effort from the team, especially in these last couple of 
+	months. Now that I have some free time I can share with you a little bit of what went on in the last months of making Infamous, at least from my point of view...
+	
+	My role at Sucker Punch, is to make the texture artists' jobs more difficult. This mostly entails modeling object, creating new
+	areas for the game, and most importantly making them as insanely detailed as possible. In short, I'm what the raccon overlords
+	at Sucker Punch call an Environment Modeler.
+	
+	(Screen 1)
+	
+	These last few months I've spent my days working on what we interally call the JB intro or the James Bond intro. Basically this is the
+	very first playable area of the game and we wanted to make it as fun and exciting as possible, much like the James Bond Movie
+	intro it gets its name from. In this part of the game Cole and the players wake up after a devastating explosion and find themselves
+	" />
+	
+	
+</en-GB1>
+<en-GB2>
+	
+	<title content="A Brief Pictorial History of Empire City, Vol. 1 A.K.A. Designing a New IP Always Makes a Mess of the Cutting Room Floor" />
+	
+	<screen1 content="Screen 1" url="/blog2/Screen1.xml" caption="Screen 1" />
+	<screen2 content="Screen 2" url="/blog2/Screen2.xml" caption="Screen 2" />
+	<screen3 content="Screen 3" url="/blog2/Screen3.xml" caption="Screen 3" />
+
+	<text content="Matt Longest
+	(Mostly Gameplay) Programmer
+	Sucker Punch Productions
+	
+	Hello, and welcome to Empire City! My name is Matt, and I will be your tour guide. We are going to take a trip back to 2006,
+	when Sucker Punch was in pre-production for a little project known as &quot;True Hero&quot;.
+
+	(Screen 1)
+	
+	Before we had our PS3 Engine, we were doing prototypes on the PS2 with our Sly Engine. Here we see Sly making a daring leap
+	off of a rooftop. Prototypes like this allowed us to identify that cross-town navigation was going to be an interesting challenge for
+	out hero. This eventually (over a few years) led to riding on the elevated train cars and electrical wires.
+	
+	(Screen 2)
+	
+	" />
+	
+	<!--
+	<text font="13reg" color="Black" textcolor="Normal" />
+	<screen video="Test Video" url="" />
+	-->
+</en-GB2>
+<en-GB3>
+	
+	<title content="Do you like EXPLOSIONS?" />
+	
+	<screen1 content="Screen 1" url="/blog3/Screen1.xml" caption="Screen 1" />
+	<screen2 content="Screen 2" url="/blog3/Screen2.xml" caption="Screen 2" />
+	
+	<text content="(Screen 1)
+	
+	If your answer is &quot;yes&quot;, then keep on reading! In this blog entry I'm going to talk a little about the Megawatt Hammer, one of Cole McGrath's many electric powers in inFAMOUS.
+	
+	To start with, my name is Darren Bridges, and I'm a game designer at Sucker Punch. I worked on several of Cole's powers, and
+the Megawatt Hammer is one of my favorites. From the beginning, we'd planned for it to be a &quot;rocket launcher&quot;-style power that
+players would unlock midway through the game. There were two main issues I still needed to resolve: how would it be cooler than
+a standard rocket weapon, and how would it evolve along the good and evil upgrade paths?
+		
+	Our general guideline for power growth in inFAMOUS is that good powers should become more precise and controlled, and evil
+powers should become more chaotic and destructive. Let's talk about the evil upgrade path first, since I started this whole thing
+by tempting you with explosions.
+
+	" />
+	<!--
+	<text font="13reg" color="Black" textcolor="Normal" />
+	<screen video="Test Video" url="" />
+	-->
+</en-GB3>
+<en-GB4>
+	
+	<title content="The Interactive World of InFAMOUS... Sounds of Destruction" />
+	
+	<video1 content="Refrigerator" url="/blog4/Refrigerator.mp4" caption="Refrigerator" />
+
+	<text content="For a Sound Designer, working on a game like inFAMOUS is a creative dream come true. You get to design sounds for horribly
+mutated creatures, create an apocalyptic ambient soundscape, and of course, you get to make sounds for an awesome set of
+super powers. As Sucker Punch's Junior Sound designer, however, my tasks usually included working on the more easily
+overlooked sounds (and even some that are impossible to miss!). As I soon found out though, in a game as immensely detailed as
+inFAMOUS, there's room for creativity everywhere.
+	
+	Empire City is full of interactivity. If you see something that you think you want to break, more likely than not you can. You can
+smash boxes, dismember mannequins, blow up fire extinguishers, and destroy benches, and that's just getting started. As a class
+of objects that needed sound, we collectively called these things breakables, and I was responsible for designing the sound effects.
+for all of them.
+	
+	One of my early tasks after joining the inFAMOUS team was to design sound for the refrigerator on Zeke's roof. Although more of
+an interactive object than something to destroy, it still fell under my purview, and is a great example of the detail put into bringing
+seemingly simple objects to life. When Cole punches or zaps the refrigerator, it bounces around a little and the door simply opens
+	" />
+	
+	<!--
+	<text font="13reg" color="Black" textcolor="Normal" />
+	<screen video="Test Video" url="" />
+	-->
+</en-GB4>
+<en-US1>
+	
+	<title content="The Art of Destruction: Burning Down a City" />
+	
+	<screen1 content="Screen 1" url="/blog1/Screen1.xml" caption="Screen 1" />
+	<screen2 content="Screen 2" url="/blog1/Screen2.xml" caption="Screen 2" />
+	
+	<text content="We're Gold! Those are the best two words you can hear while working on a game aside from the office stampede inducing &quot;foods
+	here&quot;...but getting to that point took a tremendous amount of time and effort from the team, especially in these last couple of 
+	months. Now that I have some free time I can share with you a little bit of what went on in the last months of making Infamous, at least from my point of view...
+	
+	My role at Sucker Punch, is to make the texture artists' jobs more difficult. This mostly entails modeling object, creating new
+	areas for the game, and most importantly making them as insanely detailed as possible. In short, I'm what the raccon overlords
+	at Sucker Punch call an Environment Modeler.
+	
+	(Screen 1)
+	
+	These last few months I've spent my days working on what we interally call the JB intro or the James Bond intro. Basically this is the
+	very first playable area of the game and we wanted to make it as fun and exciting as possible, much like the James Bond Movie
+	intro it gets its name from. In this part of the game Cole and the players wake up after a devastating explosion and find themselves
+	" />
+	
+	
+</en-US1>
+<en-US2>
+	
+	<title content="A Brief Pictorial History of Empire City, Vol. 1 A.K.A. Designing a New IP Always Makes a Mess of the Cutting Room Floor" />
+	
+	<screen1 content="Screen 1" url="/blog2/Screen1.xml" caption="Screen 1" />
+	<screen2 content="Screen 2" url="/blog2/Screen2.xml" caption="Screen 2" />
+	<screen3 content="Screen 3" url="/blog2/Screen3.xml" caption="Screen 3" />
+
+	<text content="Matt Longest
+	(Mostly Gameplay) Programmer
+	Sucker Punch Productions
+	
+	Hello, and welcome to Empire City! My name is Matt, and I will be your tour guide. We are going to take a trip back to 2006,
+	when Sucker Punch was in pre-production for a little project known as &quot;True Hero&quot;.
+
+	(Screen 1)
+	
+	Before we had our PS3 Engine, we were doing prototypes on the PS2 with our Sly Engine. Here we see Sly making a daring leap
+	off of a rooftop. Prototypes like this allowed us to identify that cross-town navigation was going to be an interesting challenge for
+	out hero. This eventually (over a few years) led to riding on the elevated train cars and electrical wires.
+	
+	(Screen 2)
+	
+	" />
+	
+	<!--
+	<text font="13reg" color="Black" textcolor="Normal" />
+	<screen video="Test Video" url="" />
+	-->
+</en-US2>
+<en-US3>
+	
+	<title content="Do you like EXPLOSIONS?" />
+	
+	<screen1 content="Screen 1" url="/blog3/Screen1.xml" caption="Screen 1" />
+	<screen2 content="Screen 2" url="/blog3/Screen2.xml" caption="Screen 2" />
+	
+	<text content="(Screen 1)
+	
+	If your answer is &quot;yes&quot;, then keep on reading! In this blog entry I'm going to talk a little about the Megawatt Hammer, one of Cole McGrath's many electric powers in inFAMOUS.
+	
+	To start with, my name is Darren Bridges, and I'm a game designer at Sucker Punch. I worked on several of Cole's powers, and
+the Megawatt Hammer is one of my favorites. From the beginning, we'd planned for it to be a &quot;rocket launcher&quot;-style power that
+players would unlock midway through the game. There were two main issues I still needed to resolve: how would it be cooler than
+a standard rocket weapon, and how would it evolve along the good and evil upgrade paths?
+		
+	Our general guideline for power growth in inFAMOUS is that good powers should become more precise and controlled, and evil
+powers should become more chaotic and destructive. Let's talk about the evil upgrade path first, since I started this whole thing
+by tempting you with explosions.
+
+	" />
+	<!--
+	<text font="13reg" color="Black" textcolor="Normal" />
+	<screen video="Test Video" url="" />
+	-->
+</en-US3>
+<en-US4>
+	
+	<title content="The Interactive World of InFAMOUS... Sounds of Destruction" />
+	
+	<video1 content="Refrigerator" url="/blog4/Refrigerator.mp4" caption="Refrigerator" />
+
+	<text content="For a Sound Designer, working on a game like inFAMOUS is a creative dream come true. You get to design sounds for horribly
+mutated creatures, create an apocalyptic ambient soundscape, and of course, you get to make sounds for an awesome set of
+super powers. As Sucker Punch's Junior Sound designer, however, my tasks usually included working on the more easily
+overlooked sounds (and even some that are impossible to miss!). As I soon found out though, in a game as immensely detailed as
+inFAMOUS, there's room for creativity everywhere.
+	
+	Empire City is full of interactivity. If you see something that you think you want to break, more likely than not you can. You can
+smash boxes, dismember mannequins, blow up fire extinguishers, and destroy benches, and that's just getting started. As a class
+of objects that needed sound, we collectively called these things breakables, and I was responsible for designing the sound effects.
+for all of them.
+	
+	One of my early tasks after joining the inFAMOUS team was to design sound for the refrigerator on Zeke's roof. Although more of
+an interactive object than something to destroy, it still fell under my purview, and is a great example of the detail put into bringing
+seemingly simple objects to life. When Cole punches or zaps the refrigerator, it bounces around a little and the door simply opens
+	" />
+	
+	<!--
+	<text font="13reg" color="Black" textcolor="Normal" />
+	<screen video="Test Video" url="" />
+	-->
+</en-US4>

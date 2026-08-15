@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    DestinationHome DDR Statues v1.0
+    Restored from KonamiPenthouse Objects
+-->
+<STATUES>
+    <!-- Castlevania Gabriel Statue -->
+    <STATUE>
+        <ID type="num">1</ID>
+        <POINTSTART type="num">100000</POINTSTART>
+        <POINTEND type="num">0</POINTEND>
+    </STATUE>
+    <!-- Gradius Statue -->
+    <STATUE>
+        <ID type="num">2</ID>
+        <POINTSTART type="num">0</POINTSTART>
+        <POINTEND type="num">0</POINTEND>
+    </STATUE>
+    <!-- Frogger Statue (MGS) -->
+    <STATUE>
+        <ID type="num">3</ID>
+        <POINTSTART type="num">1750000</POINTSTART>
+        <POINTEND type="num">0</POINTEND>
+    </STATUE>
+    <!-- Rocket Knight Statue (Pro Evo) -->
+    <STATUE>
+        <ID type="num">4</ID>
+        <POINTSTART type="num">2000000</POINTSTART>
+        <POINTEND type="num">0</POINTEND>
+    </STATUE>
+    <!-- Silent Hill Statue -->
+    <STATUE>
+        <ID type="num">5</ID>
+        <POINTSTART type="num">1500000</POINTSTART>
+        <POINTEND type="num">0</POINTEND>
+    </STATUE>
+    <!-- DDR Statue-->
+    <STATUE>
+        <ID type="num">6</ID>
+        <POINTSTART type="num">0</POINTSTART>
+        <POINTEND type="num">0</POINTEND>
+    </STATUE>
+    <REWARDSHAT type="num">51200</REWARDSHAT>
+    <REWARDSHANDS type="num">98400</REWARDSHANDS>
+    <REWARDSSTATUE type="num">1600</REWARDSSTATUE>
+</STATUES>

@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<LEVEL>
+    <spawn_points>
+        <_>
+            <pos type='vec'>1,50,1,1</pos>
+            <gem>
+                <gemId>redGem</gemId>
+                <probability type='num'>200</probability>
+                <max_chance type='num'>100</max_chance>
+            </gem>
+        </_>
+        <_>
+            <pos type='vec'>1,50,1,1</pos>
+            <gem>
+                <gemId>redGem</gemId>
+                <probability type='num'>200</probability>
+                <max_chance type='num'>100</max_chance>
+            </gem>
+        </_>
+        <_>
+            <pos type='vec'>1,50,1,1</pos>
+            <gem>
+                <gemId>redGem</gemId>
+                <probability type='num'>200</probability>
+                <max_chance type='num'>100</max_chance>
+            </gem>
+        </_>
+        <_>
+            <pos type='vec'>1,50,1,1</pos>
+            <gem>
+                <gemId>redGem</gemId>
+                <probability type='num'>200</probability>
+                <max_chance type='num'>100</max_chance>
+            </gem>
+        </_>
+        <_>
+            <pos type='vec'>1,50,1,1</pos>
+            <gem>
+                <gemId>redGem</gemId>
+                <probability type='num'>200</probability>
+                <max_chance type='num'>100</max_chance>
+            </gem>
+        </_>
+    </spawn_points>
+</LEVEL>

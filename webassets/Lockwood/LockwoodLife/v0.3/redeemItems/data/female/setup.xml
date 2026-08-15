@@ -1,0 +1,16 @@
+<SETUP>
+    <name>
+        <en-US>Female debug</en-US>
+        <!-- ... other locales ... -->
+    </name>
+
+    <items>
+        <_>
+            <id>iga</id>
+            <name>IGA LMFAO</name>
+            <icon>lace_up_heels_f.png</icon>
+            <level type='num'>69</level>
+            <cost type='num'>69420</cost>
+        </_>
+    </items>
+</SETUP>

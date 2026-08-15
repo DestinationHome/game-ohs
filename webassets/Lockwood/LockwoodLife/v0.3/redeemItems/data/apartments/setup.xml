@@ -1,0 +1,29 @@
+<SETUP>
+    <name>
+        <en-US>Apartments</en-US>
+        <en-GB>Apartments</en-GB>
+        <fr-FR>Apartments</fr-FR>
+        <de-DE>Apartments</de-DE>
+
+        <!-- TODO: I only know Italian and English -->
+        <it-IT>Appartamenti</it-IT>
+
+        <es-ES>Apartments</es-ES>
+        <ja-JP>Apartments</ja-JP>
+        <ko-KR>Apartments</ko-KR>
+        <en-SG>Apartments</en-SG>
+        <zh-HK>Apartments</zh-HK>
+        <zh-TW>Apartments</zh-TW>
+        <en-US>Apartments</en-US>
+        <!-- ... other locales ... -->
+    </name>
+
+    <items>
+        <_>
+            <id>party_apartment</id>
+            <icon>party_apartment.png</icon>
+            <level type='num'>10</level>
+            <cost type='num'>500</cost>
+        </_>
+    </items>
+</SETUP>

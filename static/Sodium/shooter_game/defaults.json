@@ -1,0 +1,35 @@
+{
+    "GameState": {
+        "currentLevel": 1, 
+        "currentMaxLevel": 1, 
+        "music": true,
+        "items": [
+            { "type": "guns", "name": "repeater", "level": 1, "inUse": false },
+            { "type": "tank", "name": "plating1", "level": 0, "inUse": false },
+            { "type": "thrusters", "name": "HoverFan", "level": 1, "inUse": false },
+            { "type": "thrusters", "name": "HoverFan", "level": 1, "inUse": false },
+            { "type": "thrusters", "name": "HoverFan", "level": 1, "inUse": false }
+        ],
+        "loadout": [
+            { "mount": "thrusters", "slot": "left", "name": "HoverFan", "level": 1 },
+            { "mount": "thrusters", "slot": "right", "name": "HoverFan", "level": 1 },
+            { "mount": "thrusters", "slot": "rear", "name": "HoverFan", "level": 1 },
+            { "mount": "guns", "slot": 1, "name": "repeater", "level": 1 },
+            { "mount": "guns", "slot": 2, "name": "none", "level": 0 },
+            { "mount": "missiles", "slot": 1, "name": "none", "level": 0 },
+            { "mount": "missiles", "slot": 2, "name": "none", "level": 0 },
+            { "mount": "counters", "slot": 1, "name": "none", "level": 0 },
+            { "mount": "counters", "slot": 2, "name": "none", "level": 0 },
+            { "mount": "burner", "slot": 1, "name": "none", "level": 0 },
+            { "mount": "tank", "slot": 1, "name": "plating1", "level": 0 },
+            { "mount": "module", "slot": "fireRateAug", "name": "none", "level": 0 },
+            { "mount": "module", "slot": "handlingAug", "name": "none", "level": 0 },
+            { "mount": "module", "slot": "engineAug", "name": "none", "level": 0 },
+            { "mount": "module", "slot": "targeting", "name": "none", "level": 0 },
+            { "mount": "module", "slot": "ammoStore", "name": "none", "level": 0 },
+            { "mount": "module", "slot": "armour", "name": "none", "level": 0 },
+            { "mount": "module", "slot": "autoRepair", "name": "none", "level": 0 },
+            { "mount": "module", "slot": "heatSink", "name": "none", "level": 0 }
+        ]
+    }
+}

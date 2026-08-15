@@ -1,0 +1,137 @@
+<MAP>
+    <!-- Scene type: `public`, `clubhouse` or `private` -->
+
+    <public>
+        <_>
+            <sceneId>Castle_Strakh_CFDB_36FE</sceneId>
+            <name><en-US>Castle Strakh</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>FortBellamyPublic_2A32_1E14</sceneId>
+            <name><en-US>Fort Bellamy</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>Millionaires_Hub_1508_98C7</sceneId>
+            <name><en-US>Dream Central</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>Sunset_Lounge_EBEF_AD7C</sceneId>
+            <name><en-US>Sunset Lounge</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+    </public>
+    
+    <clubhouse>
+        <_>
+            <sceneId>Dream_Forest_Club_6A43_ADD6</sceneId>
+            <name><en-US>Dream Forest: Clubhouse</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>Dream_Island_Club_E2C0_8735</sceneId>
+            <name><en-US>Dream Island: Clubhouse</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>Dream_Yacht_Arc_Club_9700_7EBC</sceneId>
+            <name><en-US>Dream Yacht: Arctic Voyage Clubhouse</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>Dream_Yacht_Club_946D_7710</sceneId>
+            <name><en-US>Dream Yacht: Clubhouse</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+    </clubhouse>
+
+    <private>
+        <_>
+            <sceneId>Ajagaras_Peak_Apt_4A94_3E08</sceneId>
+            <name><en-US>Ajagara's Peak</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>ArcticDreamYacht_Apt_D1C5_F674</sceneId>
+            <name><en-US>Dream Yacht: Arctic Voyage</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>Dream_Forest_Apt_82AC_F9C3</sceneId>
+            <name><en-US>Dream Forest</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>Dream_Hideaway_Apt_577C_70EE</sceneId>
+            <name><en-US>Dream Hideaway</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>DreamAdventureApt_C0D0_CDB0</sceneId>
+            <name><en-US>Dream Adventure</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>Millionaires_Yacht_CC55_902E</sceneId>
+            <name><en-US>Dream Yacht</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>Millionaires_Beach_BC6F_6E33</sceneId>
+            <name><en-US>Dream Island</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+
+        <_>
+            <sceneId>Haunted_Castle_E770_BD3B</sceneId>
+            <name><en-US>Castle Strakh</en-US></name>
+            <desc><en-US>// TODO: add description</en-US></desc>
+            <lkwd_life><xp type='num'>200</xp></lkwd_life>
+            <giftable type='bool'>true</giftable>
+        </_>
+    </private>
+</MAP>

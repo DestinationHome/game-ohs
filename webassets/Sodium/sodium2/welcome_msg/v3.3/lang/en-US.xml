@@ -1,0 +1,31 @@
+<WelcomeMessage>
+    <FIRST_MESSAGE>
+		<_>Notes from Destination Home:</_>
+		<_>_</_>
+		<_>- RPCS3 players will FREEZE and CRASH if they attempt to play multiplayer</_>
+		<_>- Rewards may not be immediately received; try rejoining Sodium 2 if that's the case</_>
+		<_>- We'll adjust credit prices and XP gain as feedback is received</_>
+		<_>_</_>
+		<_>This message will only appear this once and never again!</_>
+		<_>If you encounter any issues, please either open a GitHub issue or let Zeph know on Discord.</_>
+		<_>Have fun!</_>
+	</FIRST_MESSAGE>
+
+	<MESSAGE_1>
+		<_>Welcome Pilots!</_>
+		<_>_</_>
+		<_>You are now entering the high-speed, high energy world of Sodium2 - Project Velocity; the fastest growing sport of the 24th century.</_>
+		<_>Now is your chance to see whether you have what it takes to make a name for yourself on the tracks of the Velocity Racing Leagues.</_>
+		<_>_</_>
+		<_>Customise and utilise your supersonic Velocity Racer to earn XP and Sodium Credits and gain access to new and more powerful components that will give you the upper hand against your opponents.</_>
+		<_>_</_>
+		<_>While navigating the Launch Grid, you should acquaint yourself thoroughly with the following locations:</_>
+		<_>- Over on the control panel on Level 1 you will find the Sodium2 Access Point. From here you can access everything that Sodium2 has to offer</_>
+		<_>- To your right as you spawn, you'll find the Multiplayer Access Point. You can head here directly to enter the competitive world Sodium2 Multiplayer</_>
+		<_>- Behind the main Access Point and next to the Teleporter you will find the Sodium2 Leaderboards. Check here to see how your times measure up when compared to other Sodium2 Pilots from around the world</_>
+		<_>- Near the entry point you will find a handy Commerce Point as well as a Teleporter that will take you to the Sodium Hub</_>
+		<_>_</_>
+		<_>Good luck out there, you're gonna need it!</_>
+		<_>Thank you for playing Sodium2 - Project Velocity.</_>
+	</MESSAGE_1>
+</WelcomeMessage>

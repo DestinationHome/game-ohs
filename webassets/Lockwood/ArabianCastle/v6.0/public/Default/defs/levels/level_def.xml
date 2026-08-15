@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<LEVELS>
+    <spawn_points>
+        <spawn_point>
+            <pos type='vec'>-5,30,110,0</pos>
+            <gem><gemId>redGem</gemId></gem>
+        </spawn_point>  
+    </spawn_points>
+</LEVELS>

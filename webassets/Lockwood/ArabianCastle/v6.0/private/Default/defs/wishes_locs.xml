@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<WISHES>
+    <LOCALISATIONS>
+        <WISH_REWARD_MIXED_1>
+            <en-US>I want a reward for mixed gems!</en-US>
+        </WISH_REWARD_MIXED_1>
+        <WISH_TRAIL_MIXED_1>
+            <en-US>I want a sparkly carpet trail!</en-US>
+        </WISH_TRAIL_MIXED_1>
+
+        <WISH_TRAIL_RED_1>
+            <en-US>I want a fiery carpet trail!</en-US>
+        </WISH_TRAIL_RED_1>
+        <WISH_REWARD_RED_1>
+            <en-US>I want some gems!</en-US>
+        </WISH_REWARD_RED_1>
+
+        <WISH_COMMON_1>
+            <en-US>I want a few coins!</en-US>
+        </WISH_COMMON_1>
+        <WISH_COMMON_2>
+            <en-US>I want a new trail!</en-US>
+        </WISH_COMMON_2>
+
+        <WISH_UNLOCK_CHEST>
+            <en-US>I want to unlock a chest!</en-US>
+        </WISH_UNLOCK_CHEST>
+        <WISH_CHANGE_TRAIL>
+            <en-US>I want a new trail!</en-US>
+        </WISH_CHANGE_TRAIL>
+    </LOCALISATIONS>
+</WISHES>

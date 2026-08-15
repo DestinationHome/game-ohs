@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+    <PURCHASE_ME_1>Purchase Me!</PURCHASE_ME_1>
+    <PURCHASE_ME_2>Purchase Me!</PURCHASE_ME_2>
+    <PURCHASE_ME_3>Purchase Me!</PURCHASE_ME_3>
+    <PORTAL_HINT_1>Use this portal</PORTAL_HINT_1>
+    <PORTAL_HINT_2>To go back to Sodium Hub</PORTAL_HINT_2>
+    <PORTAL_HINT_3>To go back to Sodium Hub</PORTAL_HINT_3>
+    <PORTAL_HINT_4>To go back to Sodium Hub</PORTAL_HINT_4>
+    <PORTAL_HINT_5>PORTAL_HINT_5</PORTAL_HINT_5>
+    <PORTAL_HINT_6>PORTAL_HINT_6</PORTAL_HINT_6>
+    <PORTAL_HINT_7>PORTAL_HINT_7</PORTAL_HINT_7>
+    <PORTAL_HINT_8>PORTAL_HINT_8</PORTAL_HINT_8>
+    <TELEPORTER_HINT_1>TELEPORTER_HINT_1</TELEPORTER_HINT_1>
+    <TELEPORTER_HINT_2>TELEPORTER_HINT_2</TELEPORTER_HINT_2>
+    <TELEPORTER_HINT_3>TELEPORTER_HINT_3</TELEPORTER_HINT_3>
+    <TELEPORTER_HINT_4>Use the teleporter to go to the surface</TELEPORTER_HINT_4>
+    <INFO_HINT_1>Use the blimp to explore the area</INFO_HINT_1>
+    <BINOC_HINT>Use binoculars to find points of interest</BINOC_HINT>
+    <DENIED>DENIED</DENIED>
+</scene>

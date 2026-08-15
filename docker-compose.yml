@@ -1,0 +1,34 @@
+services:
+  psh-ohs:
+    image: ghcr.io/zephyrcodesstuff/psh-ohs:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: psh-ohs-api
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8080
+      - RUST_LOG=${LOG_LEVEL:-info}
+      - DB_URI=mongodb://psh-ohs-mongo:27017/psh-ohs
+    ports:
+      - "8080:8080"
+    networks:
+      - psh-ohs
+    depends_on:
+      - psh-ohs-mongo
+
+  psh-ohs-mongo:
+    image: mongo:latest
+    container_name: psh-ohs-mongo
+    networks:
+      - psh-ohs
+    volumes:
+      - psh-ohs-data:/data/db
+
+volumes:
+  psh-ohs-data:
+
+
+networks:
+  psh-ohs:
+    name: psh-ohs-network

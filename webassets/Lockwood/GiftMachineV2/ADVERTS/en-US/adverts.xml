@@ -1,0 +1,21 @@
+<ADVERTS>
+    <!-- Wouldn't work for localhost obviously. -->
+    <!-- I left it here just for reference. -->
+    <!-- <ADVERT>
+        <IMAGE>DebugAdImage.jpg</IMAGE>
+        <ACTION>URL</ACTION>
+        <URL>http://localhost:8080/</URL>
+    </ADVERT> -->
+
+    <ADVERT>
+        <IMAGE>DebugAdImage.jpg</IMAGE>
+        <ACTION>CHANGE TAB</ACTION>
+        <TAB>main</TAB>
+    </ADVERT>
+
+    <!-- <ADVERT>
+        <IMAGE>DebugAdImage.jpg</IMAGE>
+        <ACTION>COMMERCE</ACTION>
+        <URL>http://localhost:8080/</URL>
+    </ADVERT> -->
+</ADVERTS>

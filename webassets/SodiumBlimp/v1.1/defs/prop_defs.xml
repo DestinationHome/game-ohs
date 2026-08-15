@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prop_defs>
+    <PROPS>
+        <thumper_001>
+            <anim>thumper_001.ani</anim>
+            <collision>thumper_001.hkx</collision>
+            <model>thumper_001.mdl</model>
+            <skeleton>thumper_001.skn</skeleton>
+        </thumper_001>
+    </PROPS>
+    <GROUPS>
+        <group_1>
+            <weight type="num">1</weight>
+            <_>
+                <prop_id>thumper_001</prop_id>
+            </_>
+        </group_1>
+    </GROUPS>
+</prop_defs>

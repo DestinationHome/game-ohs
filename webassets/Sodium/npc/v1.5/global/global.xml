@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<global>
+    <pink_hat_female>
+        <guid>A79F30C1-7C00428B-B95D16D2-D6DD7C09</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/A79F30C1-7C00428B-B95D16D2-D6DD7C09.dds</img>
+        <cost type="num">25000</cost>
+    </pink_hat_female>
+    <fedora_green_hat_male>
+        <guid>19839895-032843AE-94288621-647B8A7E</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/19839895-032843AE-94288621-647B8A7E.dds</img>
+        <cost type="num">25000</cost>
+    </fedora_green_hat_male>
+    <goggles_female>
+        <guid>07026ADD-2A174371-8FB907A8-CDDAC5C8</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/07026ADD-2A174371-8FB907A8-CDDAC5C8.dds</img>
+        <cost type="num">50000</cost>
+    </goggles_female>
+    <goggles_male>
+        <guid>96B63FC3-F70448DF-92B3F32F-3C007014</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/96B63FC3-F70448DF-92B3F32F-3C007014.dds</img>
+        <cost type="num">50000</cost>
+    </goggles_male>
+    <no_scorpions_shirt_female>
+        <guid>C8127A28-F71C4EC5-BDE7D12D-D05E7ABA</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/C8127A28-F71C4EC5-BDE7D12D-D05E7ABA.dds</img>
+        <cost type="num">50000</cost>
+    </no_scorpions_shirt_female>
+    <no_scorpions_shirt_male>
+        <guid>DBDF9E79-2546447C-9ED980F3-C3B8EC1A</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/DBDF9E79-2546447C-9ED980F3-C3B8EC1A.dds</img>
+        <cost type="num">50000</cost>
+    </no_scorpions_shirt_male>
+    <hu_shirt_female>
+        <guid>B5427567-81C74312-BE9DBE2C-31420466</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/B5427567-81C74312-BE9DBE2C-31420466.dds</img>
+        <cost type="num">25000</cost>
+    </hu_shirt_female>
+    <hu_shirt_male>
+        <guid>8A059AA9-F17A434F-AC4728B2-11BD54E4</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/8A059AA9-F17A434F-AC4728B2-11BD54E4.dds</img>
+        <cost type="num">25000</cost>
+    </hu_shirt_male>
+    <captains_chair>
+        <guid>23A1A0DC-657E418A-B5D07AF4-2904E1E8</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/23A1A0DC-657E418A-B5D07AF4-2904E1E8.dds</img>
+        <cost type="num">25000</cost>
+    </captains_chair>
+    <neon_chair_red>
+        <guid>A820375D-7487416C-83978B90-B3FA984E</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/A820375D-7487416C-83978B90-B3FA984E.dds</img>
+        <cost type="num">25000</cost>
+    </neon_chair_red>
+    <neon_chair_purple>
+        <guid>7604F70E-E09A4442-AF362742-EEA0A490</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/7604F70E-E09A4442-AF362742-EEA0A490.dds</img>
+        <cost type="num">25000</cost>
+    </neon_chair_purple>
+    <neon_chair_yellow>
+        <guid>182710D3-34454DBC-91C401E0-91D8769A</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/182710D3-34454DBC-91C401E0-91D8769A.dds</img>
+        <cost type="num">25000</cost>
+    </neon_chair_yellow>
+    <vickie_statue>
+        <guid>CD4DF4A6-3AA244BF-8D351971-EBDF2A32</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/CD4DF4A6-3AA244BF-8D351971-EBDF2A32.dds</img>
+        <cost type="num">500000</cost>
+    </vickie_statue>
+    <sodium_shirt_female>
+        <guid>50B4CFD9-9A7B4733-8AD6A8E5-B1C6A5D5</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/50B4CFD9-9A7B4733-8AD6A8E5-B1C6A5D5.dds</img>
+        <cost type="num">25000</cost>
+    </sodium_shirt_female>
+    <sodium_shirt_male>
+        <guid>C48B6327-533B4572-A67959DB-8B122EEA</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/C48B6327-533B4572-A67959DB-8B122EEA.dds</img>
+        <cost type="num">25000</cost>
+    </sodium_shirt_male>
+    <boombox>
+        <guid>ECD847F4-3C6F46D8-84751724-7118ECBD</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/ECD847F4-3C6F46D8-84751724-7118ECBD.dds</img>
+        <cost type="num">35000</cost>
+    </boombox>
+    <fedora_hat_female>
+        <guid>7177E964-933A4B4F-A3925C38-0420AF28</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/7177E964-933A4B4F-A3925C38-0420AF28.dds</img>
+        <cost type="num">25000</cost>
+    </fedora_hat_female>
+    <fedora_hat_male>
+        <guid>7177E964-933A4B4F-A3925C38-0420AF28</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/7177E964-933A4B4F-A3925C38-0420AF28.dds</img>
+        <cost type="num">25000</cost>
+    </fedora_hat_male>
+    <sodium_jar>
+        <guid>1ED0EB25-CE304DA0-A6816FC0-34A1D9FF</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/1ED0EB25-CE304DA0-A6816FC0-34A1D9FF.dds</img>
+        <cost type="num">10000</cost>
+    </sodium_jar>
+    <sodium_windmill_yellow>
+        <guid>529B43D3-C12944A9-A81DFC3F-FFEAB153</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/529B43D3-C12944A9-A81DFC3F-FFEAB153.dds</img>
+        <cost type="num">40000</cost>
+    </sodium_windmill_yellow>
+    <sodium_windmill_blue>
+        <guid>9F8800AE-8BA04B11-8142FF4C-E4193138</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/9F8800AE-8BA04B11-8142FF4C-E4193138.dds</img>
+        <cost type="num">30000</cost>
+    </sodium_windmill_blue>
+    <spiky_thing_red>
+        <guid>41689589-0CF24CAF-B4ED1B9C-83F85180</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/41689589-0CF24CAF-B4ED1B9C-83F85180.dds</img>
+        <cost type="num">35000</cost>
+    </spiky_thing_red>
+    <spiky_thing_blue>
+        <guid>8756B179-486C4DCA-8D8C7D1C-70CB264D</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/8756B179-486C4DCA-8D8C7D1C-70CB264D.dds</img>
+        <cost type="num">35000</cost>
+    </spiky_thing_blue>
+    <sodium_mat>
+        <guid>57CC54AD-8C184550-B070B2B4-F3B4E7B9</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/57CC54AD-8C184550-B070B2B4-F3B4E7B9.dds</img>
+        <cost type="num">25000</cost>
+    </sodium_mat>
+    <blue_pillow>
+        <guid>C0376DEB-178C45E3-BFB3D989-5F80E6BA</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/C0376DEB-178C45E3-BFB3D989-5F80E6BA.dds</img>
+        <cost type="num">30000</cost>
+    </blue_pillow>
+    <yellow_pillow>
+        <guid>9FA21E1D-AD0F4BE1-82BAE9A4-83D33E1B</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/9FA21E1D-AD0F4BE1-82BAE9A4-83D33E1B.dds</img>
+        <cost type="num">30000</cost>
+    </yellow_pillow>
+    <red_pillow>
+        <guid>E29106B1-CC2D479B-92F0E583-AF16DA89</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/E29106B1-CC2D479B-92F0E583-AF16DA89.dds</img>
+        <cost type="num">20000</cost>
+    </red_pillow>
+    <purple_pillow>
+        <guid>0226B3AC-F98F41E5-BBC1535D-B396BA06</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/0226B3AC-F98F41E5-BBC1535D-B396BA06.dds</img>
+        <cost type="num">20000</cost>
+    </purple_pillow>
+    <red_chair>
+        <guid>50B3156E-F16E4975-A667D711-F6DB8449</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/50B3156E-F16E4975-A667D711-F6DB8449.dds</img>
+        <cost type="num">20000</cost>
+    </red_chair>
+    <smoke_machine>
+        <guid>86058F37-BA264A53-A1790046-913DBD85</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/86058F37-BA264A53-A1790046-913DBD85.dds</img>
+        <cost type="num">20000</cost>
+    </smoke_machine>
+    <lamp>
+        <guid>2B55D7F1-DB6F404B-B1DB8F1B-22B31315</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/2B55D7F1-DB6F404B-B1DB8F1B-22B31315.dds</img>
+        <cost type="num">20000</cost>
+    </lamp>
+    <circle_mat>
+        <guid>65216F0D-E320458A-843461B4-BC68539E</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/65216F0D-E320458A-843461B4-BC68539E.dds</img>
+        <cost type="num">20000</cost>
+    </circle_mat>
+    <care_package>
+        <guid>2273B1D0-B17B484D-BE36CA06-3ABC0D2F</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/2273B1D0-B17B484D-BE36CA06-3ABC0D2F.dds</img>
+        <cost type="num">30000</cost>
+    </care_package>
+    <sodium_tattoo_male>
+        <guid>FB58B0A6-EFB44649-BFCEFBEE-9F042CBA</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/FB58B0A6-EFB44649-BFCEFBEE-9F042CBA.dds</img>
+        <cost type="num">5000</cost>
+    </sodium_tattoo_male>
+    <sodium_tattoo_female>
+        <guid>C3592815-BB4646B2-A193145B-C7BECAB7</guid>
+        <img>https://www.outso-srv1.com/webassets/Sodium/npc/images/C3592815-BB4646B2-A193145B-C7BECAB7.dds</img>
+        <cost type="num">5000</cost>
+    </sodium_tattoo_female>
+</global>

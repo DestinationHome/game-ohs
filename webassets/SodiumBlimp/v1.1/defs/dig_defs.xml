@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dig_defs>
+    <rewards>
+        <_>SURVEY_TABLE</_>
+        <_>TECHSUIT_CONCEPT_WALL_ART_SILVER</_>
+        <_>CHROME_CATSUIT_CONCEPT_WALL_ART</_>
+        <_>TASET_ROBO_BEETLE_ORNAMENT_BLACK_N_WHITE</_>
+        <_>FASON_ROBO_PANGOLIN_ORNAMENT_SILVER</_>
+        <_>SMALL_FLORO_CACTUS_GREEN</_>
+        <_>PROPULSE_TWO_SEATER_AISLE_CHAIR</_>
+        <_>TECHSUIT_CONCEPT_WALL_ART_BLACK</_>
+        <_>BUMBLEBEE_BODY_SUIT_CONCEPT_WALL_ART</_>
+        <_>TASET_ROBO_BEETLE_ORNAMENT_BURNT_ORANGE</_>
+        <_>FASON_ROBO_PANGOLIN_ORNAMENT_YELLOW</_>
+        <_>SMALL_FLORO_CACTUS_ORANGE</_>
+        <_>FUSELAGE_ACTIVE_OBJECT_BED</_>
+    </rewards>
+    <tolerance type="num">1</tolerance>
+    <resources>
+        <silicon>
+            <project>resources</project>
+            <min type="num">1</min>
+            <max type="num">2</max>
+            <weighting type="num">1</weighting>
+        </silicon>
+        <silver>
+            <project>resources</project>
+            <min type="num">1</min>
+            <max type="num">2</max>
+            <weighting type="num">1</weighting>
+        </silver>
+        <gold>
+            <project>resources</project>
+            <min type="num">1</min>
+            <max type="num">2</max>
+            <weighting type="num">1</weighting>
+        </gold>
+        <JATO_basic_Sink>
+            <project>resources</project>
+            <min type="num">1</min>
+            <max type="num">2</max>
+            <weighting type="num">1</weighting>
+            <sodium2 type="bool">true</sodium2>
+        </JATO_basic_Sink>
+        <JATO_Ride_Sink>
+            <project>resources</project>
+            <min type="num">1</min>
+            <max type="num">2</max>
+            <weighting type="num">1</weighting>
+            <sodium2 type="bool">true</sodium2>
+        </JATO_Ride_Sink>
+        <JATO_uber_Sink>
+            <project>resources</project>
+            <min type="num">1</min>
+            <max type="num">2</max>
+            <weighting type="num">1</weighting>
+            <sodium2 type="bool">true</sodium2>
+        </JATO_uber_Sink>
+        <JATO_SSRB_x_Sink>
+            <project>resources</project>
+            <min type="num">1</min>
+            <max type="num">2</max>
+            <weighting type="num">1</weighting>
+            <sodium2 type="bool">true</sodium2>
+        </JATO_SSRB_x_Sink>
+    </resources>
+    <rockDanceProps></rockDanceProps>
+</dig_defs>

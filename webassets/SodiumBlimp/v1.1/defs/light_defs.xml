@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<light_defs>
+    <light_1>
+        <atten_end type="num">1</atten_end>
+        <atten_power type="num">1</atten_power>
+        <atten_start type="num">1</atten_start>
+        <col type="vec">0,0,0,0</col>
+        <light_type>point</light_type>
+        <pos type="vec">0,0,0,0</pos>
+        <mask>mask_002.dds</mask>
+    </light_1>
+</light_defs>

@@ -1,0 +1,37 @@
+name: Rust Lint & Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  lint-and-test:
+    name: Clippy & Unit Tests
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'skip-ci') && !contains(github.event.head_commit.message, '[skip ci]')"
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Set up Rust toolchain
+        uses: dtolnay/rust-toolchain@nightly
+        with:
+          components: clippy, rustfmt
+
+      - name: Rust Cache
+        uses: Swatinem/rust-cache@v2
+
+      - name: Check code formatting
+        run: cargo fmt -- --check
+
+      - name: Run Clippy
+        run: cargo clippy --bins --release -- -D warnings -D clippy::nursery
+
+      - name: Run Unit Tests
+        run: cargo test

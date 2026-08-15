@@ -1,0 +1,13 @@
+{
+    "global_data": {
+        "unlocks": {
+            "WAVE1": "20051215012500",
+            "WAVE2": "20051215012500",
+            "WAVE3": "20051215012500"
+        },
+        "challenges": {
+            "accuracy": 60
+        },
+        "community_score": 0
+    }
+}

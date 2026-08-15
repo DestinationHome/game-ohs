@@ -1,0 +1,16 @@
+<SETUP>
+    <name>
+        <en-US>Female debug</en-US>
+        <!-- ... other locales ... -->
+    </name>
+
+    <items>
+        <_>
+            <id>credits</id>
+            <name>credits maybe</name>
+            <icon>appetisers.png</icon>
+            <level type='num'>1</level>
+            <cost type='num'>10</cost>
+        </_>
+    </items>
+</SETUP>

@@ -1,0 +1,11 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<WISHES>
+    <WISH_DEFS>
+        <WISH>
+            <idx type='num'>1</idx>
+            <type>COMMON</type>
+            <name>debug</name>
+            <loc>en-US</loc>
+        </WISH>
+    </WISH_DEFS>
+</WISHES>

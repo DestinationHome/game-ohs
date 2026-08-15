@@ -1,0 +1,105 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<DRESSING>
+    <schedule>
+        <OHS_PLACEHOLDER_MONTH>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+        </OHS_PLACEHOLDER_MONTH>
+        <january>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+            <_>default</_>
+        </january>
+    </schedule>
+
+    <options>
+        <profiles>
+            
+        </profiles>
+
+        <entities>
+            <!-- <yacht1>
+                <yacht_type1>
+                    <default>
+                        <colour>default</colour>
+                        <texture>default</texture>
+                    </default>
+                </yacht_type1>
+            </yacht1> -->
+        </entities>
+    </options>
+
+    <setups>
+        <default>
+            <profiles>
+                <group1>default</group1>
+            </profiles>
+
+            <dressing>
+                <!-- False to bypass dressing (textures swap) stuff -->
+                <entities>
+                    <!-- <yacht1>
+                        <yacht_type1>default</yacht_type1>
+                    </yacht1> -->
+                </entities>
+            </dressing>
+        </default>
+    </setups>
+</DRESSING>

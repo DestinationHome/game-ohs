@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<CARPET>
+    <CARPETS>
+        <Default>
+            <guid>49B1CA77-88E1421E-93A4803E-342FF3D3</guid>
+            <netId>0</netId>
+            <releaseDate>20051215</releaseDate>
+            <texture>CARPET_ARABIC_D.DDS</texture>
+        </Default>
+    </CARPETS>
+
+    <TRAIL_FX>
+        <Default>
+            <netId>1</netId>
+        </Default>
+    </TRAIL_FX>
+</CARPET>

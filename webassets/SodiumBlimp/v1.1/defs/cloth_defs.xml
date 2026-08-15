@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cloth_defs>
+    <cloth1>
+        <col type="vec">0,0,0,1</col>
+        <model>canopy_001.mdl</model>
+        <pos type="vec">0,0,0,0</pos>
+        <rot type="vec">0,0,0,0</rot>
+    </cloth1>
+</cloth_defs>
