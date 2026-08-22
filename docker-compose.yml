@@ -2,6 +2,7 @@ services:
   psh-ohs:
     image: ghcr.io/destinationhome/game-ohs:latest
     container_name: game-ohs
+    user: "1002:1002"
     restart: unless-stopped
     environment:
       - "HOST=0.0.0.0"
