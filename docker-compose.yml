@@ -1,34 +1,24 @@
 services:
   psh-ohs:
-    image: ghcr.io/zephyrcodesstuff/psh-ohs:latest
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: psh-ohs-api
+    image: ghcr.io/destinationhome/game-ohs:latest
+    container_name: game-ohs
+    restart: unless-stopped
     environment:
-      - HOST=0.0.0.0
-      - PORT=8080
-      - RUST_LOG=${LOG_LEVEL:-info}
-      - DB_URI=mongodb://psh-ohs-mongo:27017/psh-ohs
+      - "HOST=0.0.0.0"
+      - "PORT=8080"
+      - "RUST_LOG=${LOG_LEVEL:-info}"
+      - "DB_URI=mongodb://mongo:27017/psh-ohs"
+      - "TELEMETRY_ENABLED=true"
+      - "TELEMETRY_ENDPOINT=http://172.17.0.1:4317"
     ports:
-      - "8080:8080"
-    networks:
-      - psh-ohs
-    depends_on:
-      - psh-ohs-mongo
-
-  psh-ohs-mongo:
-    image: mongo:latest
-    container_name: psh-ohs-mongo
-    networks:
-      - psh-ohs
+      - "30080:8080"
     volumes:
-      - psh-ohs-data:/data/db
-
-volumes:
-  psh-ohs-data:
-
+      - /srv/destinationhome/public/ohs/webassets:/app/webassets:ro
+      - /srv/destinationhome/private/ohs/static:/app/static
+    networks:
+      - ohs-network
 
 networks:
-  psh-ohs:
-    name: psh-ohs-network
+  ohs-network:
+    external: true
+    name: ohs-network
