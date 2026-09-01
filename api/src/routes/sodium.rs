@@ -22,9 +22,16 @@ pub async fn transaction_item(
     );
 
     // Update the user's account with the transaction amount
-    CounterEntry::increment(&ctx.db, "Sodium", "resources", &user, "credits", value1 as i64)
-        .await
-        .map_err(|e| actix_web::error::ErrorInternalServerError(format!("db error: {}", e)))?;
+    CounterEntry::increment(
+        &ctx.db,
+        "Sodium",
+        "resources",
+        &user,
+        "credits",
+        value1 as i64,
+    )
+    .await
+    .map_err(|e| actix_web::error::ErrorInternalServerError(format!("db error: {}", e)))?;
 
     Ok(json!(true))
 }
