@@ -2,6 +2,32 @@ use actix_web::post;
 use serde_json::{Value, json};
 
 use crate::structs::context::RegistryContext;
+use crate::structs::database::counter::CounterEntry;
+
+/// Process a transaction for a player.
+#[post("/{account}/{project}/transaction/item")]
+#[macros::jamin_handler(user, item, value1, name = "transaction/item")]
+pub async fn transaction_item(
+    user: String,
+    // `type` missing from here, but exists in API calls, cause it breaks my macro. Thanks Outso.
+    item: String,
+    value1: i32, // This will be negative for purchases
+    ctx: RegistryContext,
+) -> Result<Value, actix_web::Error> {
+    tracing::info!(
+        "transaction_item called for user {} with item {}, value1 {}",
+        user,
+        item,
+        value1
+    );
+
+    // Update the user's account with the transaction amount
+    CounterEntry::increment(&ctx.db, "Sodium", "resources", &user, "credits", value1 as i64)
+        .await
+        .map_err(|e| actix_web::error::ErrorInternalServerError(format!("db error: {}", e)))?;
+
+    Ok(json!(true))
+}
 
 /// Check if a user's Sodium registration is activated. Stubbed to always return true.
 #[post("/{account}/{project}/sodium/is_activated")]
