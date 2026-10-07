@@ -1,3 +1,8 @@
+#![allow(
+    clippy::literal_string_with_formatting_args,
+    reason = "false positive conflict between rust's format! and actix's regex"
+)]
+
 use std::path::{Component, Path};
 
 use actix_web::{HttpResponse, Responder, get, web};
@@ -161,13 +166,13 @@ pub async fn hud_resource(path: web::Path<(String, String)>) -> impl Responder {
 
     if let Ok(dir) = open_webassets_dir().and_then(|b| b.open_dir(format!("{GM_BASE}/HUD"))) {
         // Tab icons are placed in HUD/ICONS/
-        if tail.starts_with("ICONS/") {
-            if let Ok(bytes) = dir.read(&tail) {
-                let mime = mime_guess::from_path(&tail)
-                    .first_or_octet_stream()
-                    .to_string();
-                return HttpResponse::Ok().content_type(mime).body(bytes);
-            }
+        if tail.starts_with("ICONS/")
+            && let Ok(bytes) = dir.read(&tail)
+        {
+            let mime = mime_guess::from_path(&tail)
+                .first_or_octet_stream()
+                .to_string();
+            return HttpResponse::Ok().content_type(mime).body(bytes);
         }
 
         let candidates = [format!("{locale}/{tail}"), format!("en-US/{tail}")];
@@ -217,7 +222,7 @@ pub async fn entry(path: web::Path<(String, String)>) -> impl Responder {
         return HttpResponse::BadRequest().finish();
     }
 
-    let clean_name = clean_stem.replace('_', " ").replace('-', " ");
+    let clean_name = clean_stem.replace(['_', '-'], " ");
 
     let response = format!(
         r#"<ENTRY>
@@ -242,13 +247,13 @@ pub async fn icon(path: web::Path<String>) -> impl Responder {
     }
 
     // Look up in scoped ICONS capability handle
-    if let Ok(dir) = open_webassets_dir().and_then(|b| b.open_dir(format!("{GM_BASE}/ICONS"))) {
-        if let Ok(bytes) = dir.read(&icon_file) {
-            let mime = mime_guess::from_path(&icon_file)
-                .first_or_octet_stream()
-                .to_string();
-            return HttpResponse::Ok().content_type(mime).body(bytes);
-        }
+    if let Ok(dir) = open_webassets_dir().and_then(|b| b.open_dir(format!("{GM_BASE}/ICONS")))
+        && let Ok(bytes) = dir.read(&icon_file)
+    {
+        let mime = mime_guess::from_path(&icon_file)
+            .first_or_octet_stream()
+            .to_string();
+        return HttpResponse::Ok().content_type(mime).body(bytes);
     }
 
     // Serve bundled fallback PNG if requested icon doesn't exist
