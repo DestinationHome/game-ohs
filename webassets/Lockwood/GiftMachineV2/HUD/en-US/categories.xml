@@ -1,0 +1,14 @@
+<CATEGORIES>
+  <CAT>
+    <TITLE>Halloween</TITLE>
+    <ICON>ICONS/Tab_Icon_FunStuff.dds</ICON>
+    <XML>CATALOGUES/Halloween.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Christmas</TITLE>
+    <ICON>ICONS/Tab_Icon_Xmas.dds</ICON>
+    <XML>CATALOGUES/Christmas.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+</CATEGORIES>

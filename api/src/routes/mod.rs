@@ -5,6 +5,7 @@ pub mod batch;
 pub mod community;
 pub mod counter;
 pub mod data;
+pub mod gift_machine;
 pub mod global;
 pub mod leaderboards;
 pub mod sodium;

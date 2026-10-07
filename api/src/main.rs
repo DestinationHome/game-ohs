@@ -122,6 +122,14 @@ async fn main() {
             .wrap(actix_middleware::NormalizePath::trim())
             .wrap(actix_web::middleware::from_fn(middleware::ohs_prefix))
             .service(
+                actix_web::web::scope("/static/Lockwood/GiftMachineV2")
+                    .configure(routes::gift_machine::configure),
+            )
+            .service(
+                actix_web::web::scope("/webassets/Lockwood/GiftMachineV2")
+                    .configure(routes::gift_machine::configure),
+            )
+            .service(
                 actix_files::Files::new("/static", "./webassets")
                     .default_handler(|req: ServiceRequest| handlers::general_handler(req)),
             )
