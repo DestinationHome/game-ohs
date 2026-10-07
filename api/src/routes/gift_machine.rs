@@ -10,8 +10,7 @@ use actix_web::{HttpResponse, Responder, get, web};
 use crate::handlers::open_webassets_dir;
 
 const GM_BASE: &str = "Lockwood/GiftMachineV2";
-const FALLBACK_ICON: &[u8] =
-    include_bytes!("../../../webassets/Lockwood/GiftMachineV2/ICONS/fallback.png");
+const FALLBACK_ICON: &[u8] = include_bytes!("../../resources/fallback.png");
 
 /// Validate that a string is a safe single identifier (e.g. locale or UUID stem).
 /// Must only contain alphanumeric ASCII characters, underscores, and hyphens.
