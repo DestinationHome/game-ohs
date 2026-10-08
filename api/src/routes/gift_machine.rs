@@ -21,19 +21,6 @@ fn is_safe_identifier(s: &str) -> bool {
             .all(|c| c.is_ascii_alphanumeric() || c == '_' || c == '-')
 }
 
-/// Validate that a string is a safe single filename without directory components or traversals.
-fn is_safe_filename(s: &str) -> bool {
-    if s.is_empty() || s.len() > 64 || s.contains("..") {
-        return false;
-    }
-    let path = Path::new(s);
-    if path.file_name().and_then(|f| f.to_str()) != Some(s) {
-        return false;
-    }
-    s.chars()
-        .all(|c| c.is_ascii_alphanumeric() || c == '_' || c == '-' || c == '.')
-}
-
 /// Validate that a relative path contains only safe normal components (no `..`, `.`, or roots).
 fn is_safe_relative_path(p: &str) -> bool {
     if p.is_empty() || p.len() > 256 {
@@ -190,11 +177,11 @@ pub async fn hud_resource(path: web::Path<(String, String)>) -> impl Responder {
 }
 
 /// Serve item entry details XML with automatic fallback generation (free of charge).
-#[get("/ENTRIES/{locale}/{object}")]
+#[get("/ENTRIES/{locale}/{object:.*}")]
 pub async fn entry(path: web::Path<(String, String)>) -> impl Responder {
     let (locale, object) = path.into_inner();
 
-    if !is_safe_identifier(&locale) || !is_safe_filename(&object) {
+    if !is_safe_identifier(&locale) || !is_safe_relative_path(&object) {
         return HttpResponse::BadRequest().finish();
     }
 
@@ -216,7 +203,10 @@ pub async fn entry(path: web::Path<(String, String)>) -> impl Responder {
     }
 
     // Dynamic standalone fallback when no static XML exists on disk
-    let clean_stem = object.strip_suffix(".xml").unwrap_or(&object);
+    let clean_stem = Path::new(&object)
+        .file_stem()
+        .and_then(|s| s.to_str())
+        .unwrap_or(&object);
     if !is_safe_identifier(clean_stem) {
         return HttpResponse::BadRequest().finish();
     }
@@ -238,10 +228,10 @@ pub async fn entry(path: web::Path<(String, String)>) -> impl Responder {
 }
 
 /// Serve item icons with fallback.png when the requested icon is missing.
-#[get("/ICONS/{icon}")]
+#[get("/ICONS/{icon:.*}")]
 pub async fn icon(path: web::Path<String>) -> impl Responder {
     let icon_file = path.into_inner();
-    if !is_safe_filename(&icon_file) {
+    if !is_safe_relative_path(&icon_file) {
         return HttpResponse::BadRequest().finish();
     }
 
@@ -357,5 +347,28 @@ mod tests {
             .to_request();
         let resp = test::call_service(&app, req).await;
         assert!(resp.status().is_client_error());
+    }
+
+    #[actix_web::test]
+    async fn test_entry_nested_subpath() {
+        let app = test::init_service(App::new().configure(configure)).await;
+
+        let req = test::TestRequest::get()
+            .uri("/ENTRIES/it-IT/ADVERTS/Foal_Text.xml")
+            .to_request();
+        let resp = test::call_service(&app, req).await;
+        // Should succeed either serving the file or dynamic fallback, never 404/400
+        assert!(resp.status().is_success());
+    }
+
+    #[actix_web::test]
+    async fn test_icon_nested_subpath() {
+        let app = test::init_service(App::new().configure(configure)).await;
+
+        let req = test::TestRequest::get()
+            .uri("/ICONS/ADVERTS/en-GB/Goth_Furniture_Medium.dds")
+            .to_request();
+        let resp = test::call_service(&app, req).await;
+        assert!(resp.status().is_success());
     }
 }
