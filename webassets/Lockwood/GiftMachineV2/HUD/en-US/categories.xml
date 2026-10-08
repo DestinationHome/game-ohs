@@ -1,14 +1,230 @@
 <CATEGORIES>
   <CAT>
-    <TITLE>Halloween</TITLE>
-    <ICON>ICONS/Tab_Icon_FunStuff.dds</ICON>
-    <XML>CATALOGUES/Halloween.xml</XML>
+    <TITLE>Lockwood Publishing</TITLE>
+    <ICON>Tab_Icon_LP.dds</ICON>
+    <XML>Version107/front_page.xml</XML>
+    <TYPE>ITEM PER LINE</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>New</TITLE>
+    <ICON>Tab_Icon_New.dds</ICON>
+    <XML>Version107/new_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Christmas 2013</TITLE>
+    <ICON>Tab_Icon_Xmas.dds</ICON>
+    <XML>Version107/xmas2013_catalogue.xml</XML>
     <TYPE>NORMAL</TYPE>
   </CAT>
   <CAT>
     <TITLE>Christmas</TITLE>
-    <ICON>ICONS/Tab_Icon_Xmas.dds</ICON>
-    <XML>CATALOGUES/Christmas.xml</XML>
+    <ICON>Tab_Icon_Xmas.dds</ICON>
+    <XML>Version107/xmas_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Abbey Hill Cottage</TITLE>
+    <ICON>Tab_Icon_Abbey_Hill_Cottage.dds</ICON>
+    <XML>Version107/Abbey_Hill_Cottage_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Foal</TITLE>
+    <ICON>Tab_Icon_Foal.dds</ICON>
+    <XML>Version107/Foal_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Prehistoric Valley</TITLE>
+    <ICON>Tab_Icon_Prehistoric_Valley.dds</ICON>
+    <XML>Version107/Prehistoric_Valley_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Animation Packs</TITLE>
+    <ICON>Tab_Icon_Animations.dds</ICON>
+    <XML>Version107/Animations_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>LMOs</TITLE>
+    <ICON>Tab_Icon_LMO.dds</ICON>
+    <XML>Version107/LMO_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Apartments</TITLE>
+    <ICON>Tab_Icon_Apartments.dds</ICON>
+    <XML>Version107/Apartments_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Luxury</TITLE>
+    <ICON>Tab_Icon_Luxury.dds</ICON>
+    <XML>Version107/luxury_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Jewel of the Skies</TITLE>
+    <ICON>Tab_Icon_JewelSkies.dds</ICON>
+    <XML>Version107/Jewel_Skies_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Delirious Squid</TITLE>
+    <ICON>Tab_Icon_Delirious_Squid.dds</ICON>
+    <XML>Version107/Delirious_Squid_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Drey (for Men)</TITLE>
+    <ICON>Tab_Icon_Drey.dds</ICON>
+    <XML>Version107/Drey_Catalogue_M.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Drey (for Women)</TITLE>
+    <ICON>Tab_Icon_Drey.dds</ICON>
+    <XML>Version107/Drey_Catalogue_F.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Shoes</TITLE>
+    <ICON>Tab_Icon_Shoes.dds</ICON>
+    <XML>Version107/Shoes_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Hairstyles</TITLE>
+    <ICON>Tab_Icon_Haircuts.dds</ICON>
+    <XML>Version107/Hairstyles_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Companions</TITLE>
+    <ICON>Tab_Icon_Companion.dds</ICON>
+    <XML>Version107/Companions_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Jewellery (for Men)</TITLE>
+    <ICON>Tab_Icon_Jewellery_M.dds</ICON>
+    <XML>Version107/Jewellery_Catalogue_M.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Jewellery (for Women)</TITLE>
+    <ICON>Tab_Icon_Jewellery_F.dds</ICON>
+    <XML>Version107/Jewellery_Catalogue_F.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Clothing (for Men)</TITLE>
+    <ICON>Tab_Icon_Outfits.dds</ICON>
+    <XML>Version107/clothing_catalogue_M.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Extra Clothing! (for Men)</TITLE>
+    <ICON>Tab_Icon_Outfits.dds</ICON>
+    <XML>Version107/clothing_catalogue_extra_M.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Clothing (for Women)</TITLE>
+    <ICON>Tab_Icon_Outfits.dds</ICON>
+    <XML>Version107/clothing_catalogue_F.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Extra Clothing! (for Women)</TITLE>
+    <ICON>Tab_Icon_Outfits.dds</ICON>
+    <XML>Version107/clothing_catalogue_extra_F.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Dresses</TITLE>
+    <ICON>Tab_Icon_Outfits.dds</ICON>
+    <XML>Version107/Dresses_Catalogue_F.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Stitchkins</TITLE>
+    <ICON>Tab_Icon_Stitchkins.dds</ICON>
+    <XML>Version107/Stitchkins_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Love &amp; Romance</TITLE>
+    <ICON>Tab_Icon_LoveNRomance.dds</ICON>
+    <XML>Version107/valentines_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>For Him</TITLE>
+    <ICON>Tab_Icon_ForHim.dds</ICON>
+    <XML>Version107/for_him_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>For Her</TITLE>
+    <ICON>Tab_Icon_ForHer.dds</ICON>
+    <XML>Version107/for_her_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Eyebrow Jewellery (for Men)</TITLE>
+    <ICON>Tab_Icon_Eyebrow_Jewellery_M.dds</ICON>
+    <XML>Version107/Eyebrow_Jewellery_Catalogue_M.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Eyebrow Jewellery (for Women)</TITLE>
+    <ICON>Tab_Icon_Eyebrow_Jewellery_F.dds</ICON>
+    <XML>Version107/Eyebrow_Jewellery_Catalogue_F.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Weddings</TITLE>
+    <ICON>Tab_Icon_Celebrate.dds</ICON>
+    <XML>Version107/wedding_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Delicious!</TITLE>
+    <ICON>Tab_Icon_Delicious.dds</ICON>
+    <XML>Version107/delicious_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Furniture</TITLE>
+    <ICON>Tab_Icon_Furniture.dds</ICON>
+    <XML>Version107/Furniture_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Ornaments</TITLE>
+    <ICON>Tab_Icon_ForTheHome.dds</ICON>
+    <XML>Version107/home_catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Fun Stuff!</TITLE>
+    <ICON>Tab_Icon_FunStuff.dds</ICON>
+    <XML>Version107/Fun_Stuff_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Party Time</TITLE>
+    <ICON>Tab_Icon_PartyTime.dds</ICON>
+    <XML>Version107/Party_Catalogue.xml</XML>
+    <TYPE>NORMAL</TYPE>
+  </CAT>
+  <CAT>
+    <TITLE>Double Time</TITLE>
+    <ICON>Tab_Icon_DoubleTime.DDS</ICON>
+    <XML>Version107/Doubletime_Catalogue.xml</XML>
     <TYPE>NORMAL</TYPE>
   </CAT>
 </CATEGORIES>
