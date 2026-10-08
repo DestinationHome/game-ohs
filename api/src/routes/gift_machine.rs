@@ -52,6 +52,7 @@ pub fn configure(cfg: &mut web::ServiceConfig) {
     cfg.service(spam)
         .service(adverts)
         .service(categories)
+        .service(hud_root_file)
         .service(hud_resource)
         .service(entry)
         .service(icon);
@@ -135,6 +136,44 @@ pub async fn categories(path: web::Path<String>) -> impl Responder {
                 return HttpResponse::Ok()
                     .content_type("application/xml")
                     .body(bytes);
+            }
+        }
+    }
+
+    HttpResponse::NotFound().finish()
+}
+
+/// Serve HUD direct files (e.g. Tab icons) with case-insensitive fallback.
+#[get("/HUD/{file:[^/]+}")]
+pub async fn hud_root_file(path: web::Path<String>) -> impl Responder {
+    let file = path.into_inner();
+    if !is_safe_relative_path(&file) {
+        return HttpResponse::BadRequest().finish();
+    }
+
+    if let Ok(dir) = open_webassets_dir().and_then(|b| b.open_dir(format!("{GM_BASE}/HUD"))) {
+        // Direct match first
+        if let Ok(bytes) = dir.read(&file) {
+            let mime = mime_guess::from_path(&file)
+                .first_or_octet_stream()
+                .to_string();
+            return HttpResponse::Ok().content_type(mime).body(bytes);
+        }
+
+        // Case-insensitive fallback for Linux filesystems
+        let lower = file.to_lowercase();
+        if let Ok(entries) = dir.entries() {
+            for dir_entry in entries.flatten() {
+                if let Ok(name) = dir_entry.file_name().into_string() {
+                    if name.to_lowercase() == lower {
+                        if let Ok(bytes) = dir.read(&name) {
+                            let mime = mime_guess::from_path(&name)
+                                .first_or_octet_stream()
+                                .to_string();
+                            return HttpResponse::Ok().content_type(mime).body(bytes);
+                        }
+                    }
+                }
             }
         }
     }
@@ -370,5 +409,17 @@ mod tests {
             .to_request();
         let resp = test::call_service(&app, req).await;
         assert!(resp.status().is_success());
+    }
+
+    #[actix_web::test]
+    async fn test_hud_root_file() {
+        let app = test::init_service(App::new().configure(configure)).await;
+
+        let req = test::TestRequest::get()
+            .uri("/HUD/Tab_Icon_ForTheHome.dds")
+            .to_request();
+        let resp = test::call_service(&app, req).await;
+        // Even if the file isn't present in test environment, it shouldn't return 400 Bad Request
+        assert_ne!(resp.status(), actix_web::http::StatusCode::BAD_REQUEST);
     }
 }
