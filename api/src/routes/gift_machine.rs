@@ -164,16 +164,14 @@ pub async fn hud_root_file(path: web::Path<String>) -> impl Responder {
         let lower = file.to_lowercase();
         if let Ok(entries) = dir.entries() {
             for dir_entry in entries.flatten() {
-                if let Ok(name) = dir_entry.file_name().into_string() {
-                    if name.to_lowercase() == lower {
-                        if let Ok(bytes) = dir.read(&name) {
+                if let Ok(name) = dir_entry.file_name().into_string()
+                    && name.to_lowercase() == lower
+                        && let Ok(bytes) = dir.read(&name) {
                             let mime = mime_guess::from_path(&name)
                                 .first_or_octet_stream()
                                 .to_string();
                             return HttpResponse::Ok().content_type(mime).body(bytes);
                         }
-                    }
-                }
             }
         }
     }
